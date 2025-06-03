@@ -10,6 +10,7 @@ Run the following commands to set up the project:
 
 ```bash
 composer install
+cp .env.example .env
 php artisan migrate
 ```
 
