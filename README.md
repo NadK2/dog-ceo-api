@@ -26,7 +26,7 @@ php artisan serve
 ## API Endpoints
 
 ### GET Requests
-```http
+```bash
 | Method | Endpoint                      | Description                              |
 |--------|-------------------------------|------------------------------------------|
 | GET    | /api/breed                    | Get all breeds                           |
@@ -40,7 +40,7 @@ php artisan serve
 
 #### Link a User with a Park or Breed
 
-```http
+```bash
 POST /api/user/{user_id}/associate
 ```
 
@@ -57,7 +57,7 @@ POST /api/user/{user_id}/associate
 
 #### Link a Breed to a Park
 
-```http
+```bash
 POST /api/park/{park_id}/breed
 ```
 
