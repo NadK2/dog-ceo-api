@@ -27,7 +27,6 @@ php artisan serve
 
 ### GET Requests
 ```http
-
 | Method | Endpoint                      | Description                              |
 |--------|-------------------------------|------------------------------------------|
 | GET    | /api/breed                    | Get all breeds                           |
@@ -35,7 +34,6 @@ php artisan serve
 | GET    | /api/breed/random             | Get a random breed                       |
 | GET    | /api/breed/{breed}/image      | Get a random image for the breed         |
 | GET    | /api/breed/{breed}/details    | Get breed with park and user info        |
-
 ```
 
 ### POST Requests
