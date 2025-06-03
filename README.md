@@ -49,7 +49,7 @@ POST /api/user/{user_id}/associate
 ```json
 {
   "id": 1,
-  "type": "park" // or "breed"
+  "type": "park|breed"
 }
 ```
 
